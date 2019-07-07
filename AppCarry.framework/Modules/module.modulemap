@@ -1,0 +1,6 @@
+framework module AppCarry {
+  umbrella header "AppCarry.h"
+
+  export *
+  module * { export * }
+}
