@@ -9,15 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-//! Project version number for AppCarry.
-FOUNDATION_EXPORT double AppCarryVersionNumber;
-
-//! Project version string for AppCarry.
-FOUNDATION_EXPORT const unsigned char AppCarryVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <AppCarry/PublicHeader.h>
-NSString *const AppCarrySdkVersion = @"0.3.0";
-
 // In app event names
 #define KEventAppLaunch                 @"k_event_app_launch"
 #define KEventItemView                  @"k_event_item_view"
@@ -62,8 +53,6 @@ NSString *const AppCarrySdkVersion = @"0.3.0";
 @property (assign) NSString * appKey;
 
 @property (assign) BOOL isDebug;
-
-+ (NSString *) getSdkVersion;
 
 - (void) testAppCarry;
 
