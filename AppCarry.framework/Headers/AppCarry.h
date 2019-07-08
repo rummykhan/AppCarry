@@ -16,7 +16,7 @@ FOUNDATION_EXPORT double AppCarryVersionNumber;
 FOUNDATION_EXPORT const unsigned char AppCarryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AppCarry/PublicHeader.h>
-NSString *const AppCarrySdkVersion = @"0.0.1";
+NSString *const AppCarrySdkVersion = @"0.3.0";
 
 // In app event names
 #define KEventAppLaunch                 @"k_event_app_launch"
