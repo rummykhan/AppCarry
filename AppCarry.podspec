@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AppCarry"
-  spec.version      = "0.6.0"
+  spec.version      = "0.7.0"
   spec.summary      = "AppCarry IOS SDK"
 
   spec.description  = <<-DESC
